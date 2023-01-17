@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3771f0f1bcd4524582cbd89d42c765d, type: 3}
+  m_Name: ScriptableBuildingList
+  m_EditorClassIdentifier: 
+  BuildingDataList:
+  - Name: Barrack
+    Size: 4x4
+    BuildingIcon: {fileID: 21300000, guid: d91ca82ecb485864b9f9079a6b316149, type: 3}
+    BuildingPrefab: {fileID: -2645680448506490482, guid: eec0dbe07941b3244bd6704c1efe93cd, type: 3}
+    BuildingSoldierData: {fileID: 11400000, guid: 17efbc23223f8ee4491509387aa333a5, type: 2}
+  - Name: Power Plant
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 5fed94a64d25da54cb8dc3f22cb0ea03, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 06eeb5c27d7a93b4382196d4de43b4b3, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Tent
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Base
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Barrack
+    Size: 4x4
+    BuildingIcon: {fileID: 21300000, guid: d91ca82ecb485864b9f9079a6b316149, type: 3}
+    BuildingPrefab: {fileID: -2645680448506490482, guid: eec0dbe07941b3244bd6704c1efe93cd, type: 3}
+    BuildingSoldierData: {fileID: 11400000, guid: 17efbc23223f8ee4491509387aa333a5, type: 2}
+  - Name: Power Plant
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 5fed94a64d25da54cb8dc3f22cb0ea03, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 06eeb5c27d7a93b4382196d4de43b4b3, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Tent
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Base
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Barrack
+    Size: 4x4
+    BuildingIcon: {fileID: 21300000, guid: d91ca82ecb485864b9f9079a6b316149, type: 3}
+    BuildingPrefab: {fileID: -2645680448506490482, guid: eec0dbe07941b3244bd6704c1efe93cd, type: 3}
+    BuildingSoldierData: {fileID: 11400000, guid: 17efbc23223f8ee4491509387aa333a5, type: 2}
+  - Name: Power Plant
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 5fed94a64d25da54cb8dc3f22cb0ea03, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 06eeb5c27d7a93b4382196d4de43b4b3, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Tent
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
+    BuildingSoldierData: {fileID: 0}
+  - Name: Base
+    Size: 2x3
+    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
+    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
+    BuildingSoldierData: {fileID: 0}

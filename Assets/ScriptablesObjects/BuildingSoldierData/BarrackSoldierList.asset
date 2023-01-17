@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccbe3127303ccd49a789985a1337a98, type: 3}
+  m_Name: BarrackSoldierList
+  m_EditorClassIdentifier: 
+  SoldierList:
+  - {fileID: 8309756199340488046, guid: b7f83076c156bb54fa5cc7051cd62c9c, type: 3}
+  - {fileID: -7482247512648735054, guid: 305f01a4c2daba246bee7cf846e7136a, type: 3}
+  - {fileID: 8907499336824519344, guid: b0e956cd820c71d439ac2420eeda6abc, type: 3}
