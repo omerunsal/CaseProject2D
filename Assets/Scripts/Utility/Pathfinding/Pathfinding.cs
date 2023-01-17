@@ -6,10 +6,7 @@ using UnityEngine;
 
 public static class Pathfinding
 {
-    // private static readonly Color PathColor = new Color(0.65f, 0.35f, 0.35f);
-    // private static readonly Color OpenColor = new Color(.4f, .6f, .4f);
-    // private static readonly Color ClosedColor = new Color(0.35f, 0.4f, 0.5f);
-
+    
     public static List<NodeBase> FindPath(NodeBase startNode, NodeBase targetNode)
     {
         var toSearch = new List<NodeBase>() { startNode };
@@ -25,7 +22,6 @@ public static class Pathfinding
             processed.Add(current);
             toSearch.Remove(current);
 
-            // current.SetColor(ClosedColor);
 
             if (current == targetNode)
             {
@@ -40,8 +36,6 @@ public static class Pathfinding
                     if (count < 0) throw new Exception();
                 }
 
-                // foreach (var tile in path) tile.SetColor(PathColor);
-                // startNode.SetColor(PathColor);
                 return path;
             }
 
@@ -60,7 +54,6 @@ public static class Pathfinding
                     {
                         neighbor.SetH(neighbor.GetDistance(targetNode));
                         toSearch.Add(neighbor);
-                        // neighbor.SetColor(OpenColor);
                     }
                 }
             }
