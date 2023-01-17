@@ -16,7 +16,11 @@ public class Soldier : Unit
     private void Start()
     {
         isMoving = false;
-        Grid = FindObjectOfType<GridManager>();
+    }
+
+    public void Init(GridManager gridManager)
+    {
+        Grid = gridManager;
     }
 
     public void Move(NodeBase targetNode)

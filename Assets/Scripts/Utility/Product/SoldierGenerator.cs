@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SoldierEvents : MonoBehaviour
+public class SoldierGenerator : MonoBehaviour
 {
     [SerializeField] private GridManager GridManager;
     [SerializeField] private SelectManager SelectManager;
@@ -47,8 +47,9 @@ public class SoldierEvents : MonoBehaviour
                 if (UtilClass.UnitSettlePositionCheckWithTarget(GridManager, ProductionTypeEnum.Soldier,
                         validPosition))
                 {
-                    _builder.BuildProduction(soldier,
+                   Soldier _soldier= _builder.BuildProduction(soldier,
                         GridManager.Tiles.Where(x => x.Key == validPosition).First().Value.transform.position);
+                   _soldier.Init(GridManager);
 
                     GridManager.Tiles.Where(x => x.Key == validPosition).First().Value.Walkable = false;
                     return;
@@ -69,8 +70,9 @@ public class SoldierEvents : MonoBehaviour
                 if (UtilClass.UnitSettlePositionCheckWithTarget(GridManager, ProductionTypeEnum.Soldier,
                         validPosition))
                 {
-                    _builder.BuildProduction(soldier,
+                    Soldier _soldier=_builder.BuildProduction(soldier,
                         GridManager.Tiles.Where(x => x.Key == validPosition).First().Value.transform.position);
+                    _soldier.Init(GridManager);
 
                     GridManager.Tiles.Where(x => x.Key == validPosition).First().Value.Walkable = false;
                     return;

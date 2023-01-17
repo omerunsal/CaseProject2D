@@ -28,11 +28,6 @@ MonoBehaviour:
     BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
     BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
     BuildingSoldierData: {fileID: 0}
-  - Name: Base
-    Size: 2x3
-    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
-    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
-    BuildingSoldierData: {fileID: 0}
   - Name: Barrack
     Size: 4x4
     BuildingIcon: {fileID: 21300000, guid: d91ca82ecb485864b9f9079a6b316149, type: 3}
@@ -48,11 +43,6 @@ MonoBehaviour:
     BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
     BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
     BuildingSoldierData: {fileID: 0}
-  - Name: Base
-    Size: 2x3
-    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
-    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
-    BuildingSoldierData: {fileID: 0}
   - Name: Barrack
     Size: 4x4
     BuildingIcon: {fileID: 21300000, guid: d91ca82ecb485864b9f9079a6b316149, type: 3}
@@ -67,9 +57,4 @@ MonoBehaviour:
     Size: 2x3
     BuildingIcon: {fileID: 21300000, guid: d674f9b99b9d6bb4e9c2bdbb3c061cb5, type: 3}
     BuildingPrefab: {fileID: 1344324032507607844, guid: 7779b1a53719c2f438bb7ba5a46b987c, type: 3}
-    BuildingSoldierData: {fileID: 0}
-  - Name: Base
-    Size: 2x3
-    BuildingIcon: {fileID: 21300000, guid: 31d85a6dad8f08c41ad8b896f83e4cc3, type: 3}
-    BuildingPrefab: {fileID: 1344324032507607844, guid: 5b17bc9b920b2e94fbfd9efc2153dbc9, type: 3}
     BuildingSoldierData: {fileID: 0}
