@@ -9,14 +9,12 @@ using UnityEngine.UI;
 public class SpawnGenerator : MonoBehaviour
 {
     [SerializeField] private GridManager Grid;
-    private Builder<Building> _builder;
-    private Builder<PowerPlant> _builderPP;
 
-    public Vector2 mousePosition;
+    private Vector2 mousePosition;
 
 
-    public Building spawned;
-    public bool isSpawned;
+    private Building spawned;
+    private bool isSpawned;
 
     private int clickCount;
 
